@@ -1,0 +1,78 @@
+@mixin orangeBStyles()
+  //tables style
+  .b-table
+    border: 2px solid #FD811E
+    border-radius: 7px
+    box-sizing: border-box
+    border-collapse: separate
+    border-spacing: 0
+    th
+      font-size: 1.125rem
+      font-weight: 600
+      text-align: center
+      border-bottom: none !important
+      border-top: none !important
+    td
+      border-top: 1px solid #FD811E
+    td:nth-last-child(n+2), th:nth-last-child(n+2)
+      border-right: 1px solid #FD811E
+    tr
+      background: none !important
+  //icons collection
+  ul.orange-icons-list
+    padding: 0
+    margin: 0
+    li
+      background-repeat: no-repeat
+      list-style-type: none
+      padding-left: 30px
+      margin-bottom: 12px
+      min-height: 22px
+    .bag
+      background-image: url("/icons/bag.svg")
+    .climat
+      background-image: url("/icons/climat.svg")
+    .door
+      background-image: url("/icons/door.svg")
+    .fuel
+      background-image: url("/icons/fuel.svg")
+    .kpp
+      background-image: url("/icons/kpp.svg")
+    .person
+      background-image: url("/icons/person.svg")
+  //buttons style
+  .btn, .btn:visited, .btn:active, .btn:focus
+    background: #FD811E
+    border-radius: 5px
+    border: 0
+    color: #fff
+    font-size: 1rem
+    font-weight: 500
+    padding: 9px 54px
+    outline: none !important
+    box-shadow: none
+  .btn:hover
+    background: #fff
+    border: 3px solid #FD811E
+    padding: 6px 51px
+    color: #FD811E
+  .btn-rev, .btn-rev:visited, .btn-rev:active, .btn-rev:focus
+    background: #fff
+    border: 3px solid #FD811E
+    padding: 6px 51px
+    color: #FD811E
+  .btn-rev:hover
+    padding: 9px 54px
+    background: #FD811E
+    color: #fff
+    border: none
+  //checklist for menu
+  ul.check-list
+    padding: 0
+    margin: 0
+    li
+      background-image: url("/icons/check.svg")
+      background-repeat: no-repeat
+      list-style-type: none
+      padding-left: 30px
+      margin-bottom: 13px
